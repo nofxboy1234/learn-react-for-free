@@ -4,12 +4,12 @@
 // let root = document.getElementById('root');
 // root.appendChild(h1);
 
-ReactDOM.render(
+const page = (
   <div>
-    <ul>
-      <li>Thing 1</li>
-      <li>Thing 2</li>
-    </ul>
-  </div>,
-  document.getElementById('root')
+    <h1 className="header">This is JSX</h1>
+    <p>This is a paragraph</p>
+  </div>
 );
+
+console.log(page);
+ReactDOM.render(page, document.getElementById('root'));
